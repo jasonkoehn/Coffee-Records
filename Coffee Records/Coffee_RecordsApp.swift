@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct Coffee_RecordsApp: App {
+    @StateObject var store = Store()
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(store)
         }
     }
 }

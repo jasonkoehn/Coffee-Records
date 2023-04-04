@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		874587D929D1EAD400405E97 /* Coffee_RecordsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874587D829D1EAD400405E97 /* Coffee_RecordsApp.swift */; };
-		874587DB29D1EAD400405E97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874587DA29D1EAD400405E97 /* ContentView.swift */; };
 		874587DD29D1EAD500405E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874587DC29D1EAD500405E97 /* Assets.xcassets */; };
 		874587E129D1EAD500405E97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874587E029D1EAD500405E97 /* Preview Assets.xcassets */; };
+		874587E829D1EC2C00405E97 /* RoastRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874587E729D1EC2C00405E97 /* RoastRecordsView.swift */; };
+		874587EA29D1EC3D00405E97 /* PaymentRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874587E929D1EC3D00405E97 /* PaymentRecordsView.swift */; };
+		874587EC29D1ECE900405E97 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874587EB29D1ECE900405E97 /* MainView.swift */; };
+		874587F029D1F0B500405E97 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874587EF29D1F0B500405E97 /* Store.swift */; };
+		874587F229D1F5F700405E97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 874587F129D1F5F700405E97 /* GoogleService-Info.plist */; };
+		874587F529D1F6C600405E97 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 874587F429D1F6C600405E97 /* FirebaseFirestore */; };
+		874587F729D1F6C600405E97 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 874587F629D1F6C600405E97 /* FirebaseFirestoreSwift */; };
+		874587F929D1F7EB00405E97 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874587F829D1F7EB00405E97 /* Structs.swift */; };
+		8784966129D27BD600D5CCB4 /* AddRoastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784966029D27BD600D5CCB4 /* AddRoastView.swift */; };
+		8784966329D27BE000D5CCB4 /* AddPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784966229D27BE000D5CCB4 /* AddPaymentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		874587D529D1EAD400405E97 /* Coffee Records.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Records.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		874587D829D1EAD400405E97 /* Coffee_RecordsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_RecordsApp.swift; sourceTree = "<group>"; };
-		874587DA29D1EAD400405E97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		874587DC29D1EAD500405E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		874587DE29D1EAD500405E97 /* Coffee_Records.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coffee_Records.entitlements; sourceTree = "<group>"; };
 		874587E029D1EAD500405E97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		874587E729D1EC2C00405E97 /* RoastRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoastRecordsView.swift; sourceTree = "<group>"; };
+		874587E929D1EC3D00405E97 /* PaymentRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRecordsView.swift; sourceTree = "<group>"; };
+		874587EB29D1ECE900405E97 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		874587EF29D1F0B500405E97 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		874587F129D1F5F700405E97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		874587F829D1F7EB00405E97 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		8784966029D27BD600D5CCB4 /* AddRoastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoastView.swift; sourceTree = "<group>"; };
+		8784966229D27BE000D5CCB4 /* AddPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874587F529D1F6C600405E97 /* FirebaseFirestore in Frameworks */,
+				874587F729D1F6C600405E97 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +71,14 @@
 			isa = PBXGroup;
 			children = (
 				874587D829D1EAD400405E97 /* Coffee_RecordsApp.swift */,
-				874587DA29D1EAD400405E97 /* ContentView.swift */,
+				874587EB29D1ECE900405E97 /* MainView.swift */,
+				874587E729D1EC2C00405E97 /* RoastRecordsView.swift */,
+				874587E929D1EC3D00405E97 /* PaymentRecordsView.swift */,
+				8784966029D27BD600D5CCB4 /* AddRoastView.swift */,
+				8784966229D27BE000D5CCB4 /* AddPaymentView.swift */,
+				874587F829D1F7EB00405E97 /* Structs.swift */,
+				874587EF29D1F0B500405E97 /* Store.swift */,
+				874587F129D1F5F700405E97 /* GoogleService-Info.plist */,
 				874587DC29D1EAD500405E97 /* Assets.xcassets */,
 				874587DE29D1EAD500405E97 /* Coffee_Records.entitlements */,
 				874587DF29D1EAD500405E97 /* Preview Content */,
@@ -85,6 +110,10 @@
 			dependencies = (
 			);
 			name = "Coffee Records";
+			packageProductDependencies = (
+				874587F429D1F6C600405E97 /* FirebaseFirestore */,
+				874587F629D1F6C600405E97 /* FirebaseFirestoreSwift */,
+			);
 			productName = "Coffee Records";
 			productReference = 874587D529D1EAD400405E97 /* Coffee Records.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 874587CC29D1EAD400405E97;
+			packageReferences = (
+				874587F329D1F6C600405E97 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 874587D629D1EAD400405E97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				874587E129D1EAD500405E97 /* Preview Assets.xcassets in Resources */,
+				874587F229D1F5F700405E97 /* GoogleService-Info.plist in Resources */,
 				874587DD29D1EAD500405E97 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874587DB29D1EAD400405E97 /* ContentView.swift in Sources */,
 				874587D929D1EAD400405E97 /* Coffee_RecordsApp.swift in Sources */,
+				8784966329D27BE000D5CCB4 /* AddPaymentView.swift in Sources */,
+				874587EA29D1EC3D00405E97 /* PaymentRecordsView.swift in Sources */,
+				8784966129D27BD600D5CCB4 /* AddRoastView.swift in Sources */,
+				874587F929D1F7EB00405E97 /* Structs.swift in Sources */,
+				874587F029D1F0B500405E97 /* Store.swift in Sources */,
+				874587EC29D1ECE900405E97 /* MainView.swift in Sources */,
+				874587E829D1EC2C00405E97 /* RoastRecordsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +323,12 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonkoehn.Coffee-Records";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonkoehn.Coffee-Records1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,10 +363,12 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonkoehn.Coffee-Records";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonkoehn.Coffee-Records1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,6 +397,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		874587F329D1F6C600405E97 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		874587F429D1F6C600405E97 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 874587F329D1F6C600405E97 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		874587F629D1F6C600405E97 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 874587F329D1F6C600405E97 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 874587CD29D1EAD400405E97 /* Project object */;
 }
